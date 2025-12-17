@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "safariRun":"npx playwright test two_user_session_handling.spec.ts --headed --project='webkit'"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
